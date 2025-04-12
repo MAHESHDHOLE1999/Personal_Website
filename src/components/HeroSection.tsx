@@ -15,7 +15,7 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 md:px-8 py-16">
         <div className="flex flex-col-reverse md:flex-row items-center">
           <div className="w-full md:w-3/5 mt-10 md:mt-0 animate-fade-in" style={{ animationDelay: '0.3s' }}>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">MAHESH DHOLE</h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">MAHESH Tarachand DHOLE</h1>
             <h2 className="text-2xl md:text-3xl text-portfolio-yellow font-medium mb-6">FULL STACK DEVELOPER</h2>
             <p className="text-lg mb-8 max-w-2xl">
               Passionate Software Developer who loves learning new technologies and applying them to real-world projects.
