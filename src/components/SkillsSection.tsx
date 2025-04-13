@@ -23,7 +23,10 @@ const SkillsSection = () => {
         { name: "Laravel", level: 60 },
         { name: "TailwindCSS", level: 90 },
         { name: "MongoDB", level: 75 },
-        { name: "ExpressJS", level: 75 }
+        { name: "ExpressJS", level: 75 },
+        { name: "CI/CD", level : 80 },
+        { name: "APIs", level : 80 },
+        { name: "Agile", level : 90 },
       ]
     },
     {
@@ -33,7 +36,9 @@ const SkillsSection = () => {
         { name: "Collaboration", level: 85 },
         { name: "Leadership", level: 80 },
         { name: "Time Management", level: 85 },
-        { name: "Adaptability", level: 90 }
+        { name: "Adaptability", level: 90 },
+        { name: "Good Listener", level: 90 },
+        { name: "Quick Learner", level: 90 }
       ]
     }
   ];
