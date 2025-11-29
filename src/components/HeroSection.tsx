@@ -1,6 +1,7 @@
 
 import { ArrowDown } from 'lucide-react';
-import cv from '../../public/lovable-uploads/Mahesh_cv.png'
+// import cv from '../../public/lovable-uploads/Mahesh_cv.png'
+import cv from '../../public/lovable-uploads/Mahesh_CV1.pdf'
 
 const HeroSection = () => {
   const scrollToAbout = () => {
