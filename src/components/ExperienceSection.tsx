@@ -5,10 +5,24 @@ const ExperienceSection = () => {
   const experiences = [
     {
       title: "Software Developer",
-      company: "UNIFINS IT HUB PVT. LTD.",
+      company: "Spinovix Software Pvt Ltd",
       location: "Nagpur, India",
-      period: "11/2024 - Present",
-      description: "Working at UNIFINS IT HUB, a distinguished IT services, consulting, and business solutions organization with a decade-long track record of excellence.",
+      period: "04/2025 - Present",
+      // description: "Working at UNIFINS IT HUB, a distinguished IT services, consulting, and business solutions organization with a decade-long track record of excellence.",
+      responsibilities: [
+        "Developed and successfully deployed 3+ production-level client projects, optimizing performance and response time by 30–40%.",
+        "Mentored and guided 15+ interns by assigning tasks, reviewing code, and improving overall project delivery quality and development standards.",
+        "Designed and implemented scalable backend architectures, reducing feature rollout time by 20% and improving system maintainability.",
+        "Collaborated with cross-functional teams to gather requirements, plan sprints, and deliver client features within timelines.",
+        "Enhanced code quality through structured development, debugging, documentation, and best-practice implementation.",
+      ]
+    },
+    {
+      title: "Software Developer",
+      company: "UNIFINS IT Hub Pvt. Ltd.",
+      location: "Nagpur, India",
+      period: "11/2024 - 04/2025",
+      // description: "Working at UNIFINS IT HUB, a distinguished IT services, consulting, and business solutions organization with a decade-long track record of excellence.",
       responsibilities: [
         "Developed and maintained full-stack web applications using React.js, PHP (Laravel), MySQL, Tailwind CSS, and Material UI.",
         "Led the development of TechnoGhat Knowledge Solution, an educational platform improving student engagement.",
@@ -22,7 +36,7 @@ const ExperienceSection = () => {
       company: "Technogate Knowledge Solution Private Limited",
       location: "Hinganghat, India",
       period: "08/2024 - 11/2024",
-      description: "Worked at Technogate Knowledge Solution, an educational institute that provides quality education and skill development in programming, IT-JEE preparation, and technical fields.",
+      // description: "Worked at Technogate Knowledge Solution, an educational institute that provides quality education and skill development in programming, IT-JEE preparation, and technical fields.",
       responsibilities: [
         "Planned and managed institutional activities to enhance operations and student engagement.",
         "Taught programming and technical subjects to students, ensuring effective learning.",
@@ -35,7 +49,7 @@ const ExperienceSection = () => {
       company: "InternMeets Edu. Tech Pvt Ltd",
       location: "Nagpur, Maharashtra",
       period: "03/2024 - 06/2024",
-      description: "Interned at InternMeets Edu. Tech, a training platform that provides students with internship opportunities and hands-on project experience.",
+      // description: "Interned at InternMeets Edu. Tech, a training platform that provides students with internship opportunities and hands-on project experience.",
       responsibilities: [
         "Worked on the Events E-Waste Management System, a project focused on collecting, recycling, and reselling e-waste.",
         "Gained experience in teamwork, project leadership, and effective communication with teammates.",
@@ -75,7 +89,7 @@ const ExperienceSection = () => {
                   </div>
                 </div>
                 
-                <p className="text-gray-700 mb-4">{exp.description}</p>
+                {/* <p className="text-gray-700 mb-4">{exp?.description}</p> */}
                 
                 {exp.responsibilities && (
                   <ul className="list-disc list-inside text-gray-700 space-y-2">

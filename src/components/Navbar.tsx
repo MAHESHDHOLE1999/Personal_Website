@@ -42,7 +42,7 @@ const Navbar = () => {
             <button
               key={item}
               onClick={() => scrollToSection(item)}
-              className="text-portfolio-dark-gray hover:text-portfolio-navy-blue capitalize font-medium"
+              className=" hover:text-portfolio-navy-blue capitalize font-medium text-white"
             >
               {item}
             </button>
